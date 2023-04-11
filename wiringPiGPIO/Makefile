@@ -10,6 +10,7 @@ include $(TOPDIR)/rules.mk
 PKG_NAME:=wiringPiGPIO
 PKG_VERSION:=2.70
 PKG_RELEASE:=1
+PKG_BUILD_DEPENDS := libwiringPi libwiringPiDev
 
 PKG_SOURCE_URL:=https://github.com/WiringPi/WiringPi.git
 PKG_SOURCE_PROTO:=git
